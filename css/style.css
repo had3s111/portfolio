@@ -1,0 +1,175 @@
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    padding: 0;
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #f6f6f6;
+    overflow: hidden;
+    border-bottom: 1px solid lightgray;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+header ul {
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    margin: 0 20px 0 20px;
+}
+
+header #my-name {
+    float: left;
+}
+
+header #my-name h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header #my-name, header .current-page a {
+    color: #00aa55;
+    font-weight: bold;
+}
+
+header a {
+    color: #000;
+}
+
+header a:hover {
+    color: #00aa55;
+}
+
+aside.sidebar {
+    text-align: center;
+    float: left;
+    width: 30%;
+}
+
+aside.sidebar p {
+    color: lightgray;
+}
+
+aside.sidebar img#profile-picture {
+    margin-top: 30px;
+    border-radius: 50%;
+    max-width: 300px;
+    width: 100%;
+}
+
+article.home-content {
+    float: right;
+    width: 70%;
+}
+
+section {
+    display: block;
+    overflow: auto;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    padding: 5px;
+    color: lightgray;
+    background: #f6f6f6;
+}
+
+a {
+    color: lightgreen;
+}
+
+aside.sidebar ul {
+    float: left;
+    list-style: none;
+}
+
+aside.sidebar li {
+    display: inline;
+    margin: 0 1% 0 1%;
+}
+
+aside.sidebar p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+aside.sidebar li img {
+    width: 15%;
+    margin-top: 15px;
+}
+
+ul#publications {
+    list-style: none;
+}
+
+li.paper {
+    padding: 20px;
+    margin: 15px;
+    background: #f6f6f6;
+}
+
+li.paper a {
+    color: #00aa55;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+li.paper a.item {
+    border-radius: 7px 7px;
+	background: #00aa55;
+	padding: 7px;
+	margin: 0 4px 0 4px;
+	font-weight: none;
+	font-size: 10px; 
+	color: #FFFFFF;
+}
+
+section h1, section h2 {
+    color: #00aa55;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    header #my-name, header nav, header nav li, aside.sidebar, article.home-content{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    header li {
+    margin: 0 10px 0 10px;
+}
+
+    aside.sidebar #profile-picture{
+        max-width: 300px;
+    }
+
+
+}
